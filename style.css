@@ -1,0 +1,66 @@
+title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+header{
+    background-image: url(../nature-g277f1dc1a_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
+ul a{
+    text-decoration: none;
+    color: solid black;
+    transition: 0.6s ease;
+}
+
+ul :hover{
+    background-color: rgb(204, 49, 101);
+    color: white;
+    transition: 00.6s ease;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 70px;
+}
+.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.6s ease;
+}
+div .button :hover{
+    background-color: rgb(204, 49, 101);
+    color: white;
+    transition: 0.6s ease;
+}
+div a{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+}
+
